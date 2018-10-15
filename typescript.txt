@@ -1,0 +1,17 @@
+avec installeur de node
+
+installation global : 
+npm install -g typescript
+
+creation du fichier de config.json:
+tsc --init
+
+exemple:
+touch file.ts
+tsc file.ts
+node file.js
+
+--
+tsc file.ts && node file.js
+tsc -t es5 file.ts && file.js
+--
